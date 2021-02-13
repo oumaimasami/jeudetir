@@ -5,13 +5,13 @@ using UnityEngine;
 public class enemy : MonoBehaviour
 {
 
-    float speed = 10f;
+    float speed = 8f;
 
     // Start is called before the first frame update
     void Start()
     {
 
-        speed = Random.Range(0.9f, 0.9f);
+        speed = Random.Range(3f, 4f);
     }
 
     // Update is called once per frame

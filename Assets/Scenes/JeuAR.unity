@@ -316,7 +316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 1839858154}
   rayon: 10
-  delay: 0.5
+  delay: 2.5
   h: 2
 --- !u!4 &820525224
 Transform:
