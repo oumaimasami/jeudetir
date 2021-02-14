@@ -5,21 +5,21 @@ using UnityEngine;
 public class enemy : MonoBehaviour
 {
 
-    float speed = 0f;
+    float speed = 8f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
-        speed = Random.Range(0.1f, 0.5f);
+
+        speed = Random.Range(4f, 4f);
     }
 
     // Update is called once per frame
     void Update()
     {
-       
+
         transform.LookAt(Camera.main.transform);
-       // transform.Rotate(Vector3.up * 10f * Time.deltaTime);
+        transform.Rotate(Vector3.up * 1f * Time.deltaTime);
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
 }
